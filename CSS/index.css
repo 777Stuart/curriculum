@@ -1,0 +1,108 @@
+/*
+barra de navegacion
+*/
+body {
+    background-image: url(/IMAGNES/fondo\ body.jpg);
+    margin: 0;
+}
+
+.nav {
+    background-color: black;
+    height: 70px;
+    margin: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nav-item {
+    display: inline;
+    text-decoration: none;
+    padding-left: 1rem;
+
+}
+
+/*
+a con color rojo
+*/
+.nav-item a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.nav-item a:hover {
+    color: brown;
+
+}
+
+/*contenido del index*/
+
+.seccion {
+    display: flex;
+
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.322);
+    margin: 10px 5rem;
+    flex-direction: column;
+}
+
+.seccion h1 {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.contenido {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+
+.informacion p {
+    font-size: 20px;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+img {
+    margin-right: 3rem;
+    width: 100px;
+    height: auto;
+
+
+}
+
+.seccion-escolaridad {
+    background-color: rgba(250, 235, 215, 0.363);
+    text-align: center;
+
+
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    color: white;
+    
+}
+
+.card {
+    width: 300px;
+    height: 150px;
+    background-color: #333333;
+    padding: 40px;
+    margin: 30px;
+    border-radius: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.seccion h1{
+background-color: #ffffff;
+padding: 40px;
+
+}
